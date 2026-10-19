@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FEF4F7"/>
+      <stop offset="1" stop-color="#FED0DB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- sparkles -->
+  <g stroke="none">
+    <path d="M150 230 Q156 254 180 260 Q156 266 150 290 Q144 266 120 260 Q144 254 150 230 Z" fill="#BFDDF5"/>
+    <path d="M880 200 Q885 220 905 225 Q885 230 880 250 Q875 230 855 225 Q875 220 880 200 Z" fill="#E3D3F7"/>
+    <circle cx="862" cy="330" r="12" fill="#BFE8CF"/>
+    <circle cx="170" cy="370" r="10" fill="#FFE7B8"/>
+  </g>
+  <g stroke="#C45A85" stroke-width="14" stroke-linejoin="round" stroke-linecap="round">
+    <!-- desk -->
+    <rect x="-20" y="905" width="1064" height="200" rx="30" fill="#FFE7B8" stroke="#E8B77E" stroke-width="12"/>
+    <!-- tail -->
+    <path d="M318 690 q-80 5 -60 -35 q-3 -32 25 -30 q24 4 10 28 q-14 18 -45 6" fill="none" stroke-width="13"/>
+    <!-- body -->
+    <ellipse cx="512" cy="770" rx="235" ry="160" fill="#FFB6C8"/>
+    <g transform="rotate(-5 512 640)">
+    <!-- ears -->
+    <path d="M296 312 Q232 205 262 132 Q278 100 312 112 Q392 145 440 224 Z" fill="#FFB6C8"/>
+    <path d="M312 262 Q280 200 296 160 Q306 145 324 155 Q366 180 394 222 Z" fill="#F59AB5" stroke="none"/>
+    <path d="M728 312 Q792 205 762 132 Q746 100 712 112 Q632 145 584 224 Z" fill="#FFB6C8"/>
+    <path d="M712 262 Q744 200 728 160 Q718 145 700 155 Q658 180 630 222 Z" fill="#F59AB5" stroke="none"/>
+    <!-- head -->
+    <ellipse cx="512" cy="432" rx="268" ry="238" fill="#FFB6C8"/>
+    <!-- blush -->
+    <ellipse cx="342" cy="505" rx="50" ry="29" fill="#FF8FB0" opacity="0.6" stroke="none"/>
+    <ellipse cx="682" cy="505" rx="50" ry="29" fill="#FF8FB0" opacity="0.6" stroke="none"/>
+    <!-- eyes -->
+    <ellipse cx="400" cy="412" rx="32" ry="38" fill="#5A2A40" stroke="none"/>
+    <ellipse cx="624" cy="412" rx="32" ry="38" fill="#5A2A40" stroke="none"/>
+    <circle cx="411" cy="398" r="12" fill="#fff" stroke="none"/>
+    <circle cx="635" cy="398" r="12" fill="#fff" stroke="none"/>
+    <circle cx="390" cy="428" r="5.5" fill="#fff" stroke="none"/>
+    <circle cx="614" cy="428" r="5.5" fill="#fff" stroke="none"/>
+    <!-- snout -->
+    <ellipse cx="512" cy="500" rx="94" ry="64" fill="#F59AB5"/>
+    <ellipse cx="479" cy="500" rx="15" ry="24" fill="#A8466F" stroke="none"/>
+    <ellipse cx="545" cy="500" rx="15" ry="24" fill="#A8466F" stroke="none"/>
+    <!-- mouth -->
+    <path d="M490 594 Q512 614 534 594" fill="none" stroke-width="12"/>
+    </g>
+    <!-- notebook cover -->
+    <path d="M512 735 Q350 700 150 720 L140 950 Q330 930 512 965 Q694 930 884 950 L874 720 Q674 700 512 735 Z" fill="#E3D3F7" stroke="#8A6BB8" stroke-width="13"/>
+    <!-- pages -->
+    <path d="M512 720 Q350 685 170 705 L162 925 Q340 905 512 940 Z" fill="#FFFDF9" stroke="#B9A3DA" stroke-width="10"/>
+    <path d="M512 720 Q674 685 854 705 L862 925 Q684 905 512 940 Z" fill="#FFFDF9" stroke="#B9A3DA" stroke-width="10"/>
+    <!-- lines -->
+    <g stroke="#BFDDF5" stroke-width="11" fill="none">
+      <path d="M250 830 Q370 820 470 840"/>
+      <path d="M250 885 Q370 875 470 895"/>
+      <path d="M554 785 Q634 768 734 772"/>
+      <path d="M554 840 Q654 820 774 830"/>
+      <path d="M554 895 Q654 875 774 885"/>
+    </g>
+    <!-- checkboxes -->
+    <rect x="200" y="815" width="34" height="34" rx="9" fill="#BFE8CF" stroke="#6FB58C" stroke-width="7"/>
+    <path d="M207 832 L215 841 L229 822" fill="none" stroke="#4E9A6E" stroke-width="7"/>
+    <rect x="200" y="870" width="34" height="34" rx="9" fill="#FFE7B8" stroke="#E0A86A" stroke-width="7"/>
+    <!-- heart doodle on right page -->
+    <path d="M815 762 c-14 -16 -40 -4 -30 16 l30 26 l30 -26 c10 -20 -16 -32 -30 -16 z" fill="#F59AB5" stroke="none"/>
+    <!-- left trotter -->
+    <ellipse cx="330" cy="762" rx="68" ry="54" fill="#FFB6C8"/>
+    <path d="M330 794 L330 815" stroke-width="10"/>
+    <!-- pencil -->
+    <g transform="rotate(-52 690 790)">
+      <path d="M600 766 L800 766 L800 814 L600 814 Z" fill="#FFD27A" stroke="#C88A3A" stroke-width="10"/>
+      <path d="M605 790 L795 790" stroke="#F0B85A" stroke-width="8"/>
+      <rect x="800" y="766" width="26" height="48" fill="#C9B8E8" stroke="#8A6BB8" stroke-width="10"/>
+      <path d="M826 766 L846 766 Q862 766 862 782 L862 798 Q862 814 846 814 L826 814 Z" fill="#F59AB5" stroke="#C45A85" stroke-width="10"/>
+      <path d="M600 766 L535 790 L600 814 Z" fill="#F8D9B0" stroke="#C88A3A" stroke-width="10"/>
+      <path d="M556 782 L535 790 L556 798 Z" fill="#5A2A40" stroke="#5A2A40" stroke-width="6"/>
+    </g>
+    <!-- right trotter -->
+    <ellipse cx="690" cy="792" rx="68" ry="54" fill="#FFB6C8"/>
+    <path d="M690 824 L690 845" stroke-width="10"/>
+  </g>
+</svg>
